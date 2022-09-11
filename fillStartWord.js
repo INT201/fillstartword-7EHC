@@ -2,15 +2,15 @@ const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
     if (word==null||word==undefined) {
-      console.log(undefined)
+      //console.log(undefined)
       return undefined
     } 
     else if(word.includes(startWord)) {
-      console.log(word)
+      //console.log(word)
       return word
     }
     else {
-      console.log(startWord+word)
+      //console.log(startWord+word)
       return startWord+word 
     }
 }
